@@ -1,0 +1,55 @@
+body {
+    height: 100%;
+    width: 100%;
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+.main-header {
+    text-align: center;
+    background-color: #ff4422;
+    margin-top: auto;
+    flex: 1 0 auto;
+}
+
+.main-container {
+    width: 90%;
+    margin: auto;
+    flex: 1 0 auto;
+}
+
+.main-footer {
+    text-align: center;
+    background-color: #ff4422;
+    margin: 0;
+    flex-shrink: 0;
+}
+
+.about-header {
+    text-align: center;
+}
+
+.about-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.about-article {
+    width: 220px;
+}
+
+.game-header, .app-header {
+    text-align: center;
+}
+
+.game-section, .app-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+}

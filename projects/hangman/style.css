@@ -1,0 +1,184 @@
+body {
+    /*
+    * Background pattern is from: 
+    * https://leaverou.github.io/css3patterns/#lined-paper 
+    */
+    background-color: #fff;
+    background-image:linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+    linear-gradient(#eee .1em, transparent .1em);
+    background-size: 100% 1.2em;
+}
+
+main {
+    width: 90%;
+    margin: 20px auto;
+}
+
+.pageHeader {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.instrucSection {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.instrucSection p {
+    width: 200px;
+    font-size: 1.3em;
+}
+
+.btn {
+    background-color: red;
+    width:200px;
+    text-align: center;
+    padding:20px;
+    font-size: 2em;
+    color:white;
+    border-radius: 10px;
+    box-shadow: 4px 4px #222; 
+}
+.btn:hover {
+    background-color: #eb5e5ebb;
+    box-shadow: 1px 1px #222; 
+}
+.btn:disabled {
+    background-color: grey;
+}
+
+.instrucSection ul {
+    font-size: 1.3em;
+}
+
+.lettersArea {
+    border: 1px solid rgb(214, 77, 241);
+    background-color:  rgba(244, 190, 255,.5);
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-family: 'Courier New', Courier, monospace;
+    box-shadow: 2px 2px #999;
+}
+
+.letter {
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 1.5em;
+}
+
+.usedLetter {
+    cursor: default;
+    color: #aaa;
+    border: 1px solid white;
+}
+
+.puzzleArea {
+    border: 1px solid rgb(214, 77, 241);
+    background-color:  rgba(244, 190, 255,.5);
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-shadow: 3px 3px #999;
+}
+
+.unknownLetter {
+    display: inline-block;
+    padding: 5px;
+    margin-left: 10px;
+    font-size: 4em;
+    color: #999;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.foundLetter {
+    animation-duration: 3s;
+    animation-name: foundOne;
+    color: #000;
+}
+
+.resultsArea{
+    font-size: 2.5em;
+    margin-top:20px;
+    text-align: center;
+    font-family: 'Nanum Pen Script', cursive;
+}
+.defaultMessage {
+    color: black;
+}
+.foundMessage {
+    color: rgb(61, 163, 61);
+}
+.noMatchMessage {
+    color: rgb(187, 76, 76);
+}
+
+.pageFooter {
+    text-align: center;
+    font-size: 2em;
+}
+
+/*
+ * Media Queries 
+*/
+@media (max-width: 450px){
+    .instrucSection p {
+        font-size: 1em;
+        padding: 0;
+    }
+    .btn {
+        font-size: 1.5em;
+        padding: 5px;
+    }
+    .instrucSection ul {
+        font-size: 1em;
+        padding: 0;
+    }
+    .resultsArea{
+        font-size: 1.5em;
+    }
+    .unknownLetter{
+        font-size: 2em;
+    }
+    .foundLetter {
+        animation-name: foundOne-small;
+    }
+}
+
+/*
+ * Keyframe animations
+*/
+@keyframes foundOne {
+    from {
+        font-size: .1em;
+        transform: rotate(720deg);
+    }
+    to {
+        font-size: 4em;
+        transform: rotate(0);
+    }
+}
+
+@keyframes foundOne-small {
+    from {
+        font-size: .1em;
+        transform: rotate(720deg);
+    }
+    to {
+        font-size: 2em;
+        transform: rotate(0);
+    }
+}
