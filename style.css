@@ -54,17 +54,17 @@ body {
     width: 100%;
 }
 
-.game-article {
+.game-article, .app-article {
     border: 1px solid #222;
     border-radius: 15px;
     width: 200px;
     background-color: #ff4422;
     box-shadow: 3px 3px 7px #811a07;
 }
-.game-article-body {
+.game-article-body, .app-article-body {
     padding: 15px;
 }
-.game-article-header {
+.game-article-header, .app-article-header {
     text-align: center;
     border-bottom: 1px solid #ddd;
     border-radius: 15px 15px 0 0;
@@ -77,7 +77,7 @@ body {
     font-weight: bold;
 }
 
-.game-article-footer {
+.game-article-footer, .app-article-footer {
     text-align: center;
     border-top: 1px solid #ddd;
     border-radius: 0 0 15px 15px;

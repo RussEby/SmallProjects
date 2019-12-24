@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="TipCalc.css">
+    <title>Tip Calc</title>
+</head>
+
+<body>
+    <div class="page-banner">
+        <p>Projects -- <a href="../../index.html">Home page</a></p>
+    </div>
+    <main id="tipcalcForm" class="main-content">
+        <header class="main-header">
+            <h1>Tip Calculator</h1>
+        </header>
+        <section class="main-form">
+            <div class="inputEle">
+                <label for="cost">Price:</label>
+                <input type="number" min="0" id="cost" name="name" step="0.01">
+            </div>
+            <div class="inputEle">
+                <input type="checkbox" id="doRoundUp" name="doRoundUp">
+                <label for="doRoundUp">Round up to nearest dollar</label>
+            </div>
+            <div class="inputEle">
+                <label for="tipRate">Tip %</label>
+                <select id="tipRate">
+                    <option value="5">5%</option>
+                    <option value="10">10%</option>
+                    <option value="15" selected>15%</option>
+                    <option value="18">18%</option>
+                    <option value="20">20%</option>
+                </select>
+            </div>
+            <button id="btnCompute" type="button" class="form-button">Compute Tip</button>
+        </section>
+        <section id="resultsDiv">
+            <p id="results"></p>
+        </section>
+    </main>
+    <script src="TipCalc.js"></script>
+</body>
+
+</html>
