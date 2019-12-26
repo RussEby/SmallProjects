@@ -8,6 +8,10 @@ I'll try to mention the tutorial that inspired the original work.
 
 These are not themselves a tutorial anymore then class notes are a replacement for the text book or lectures. But I do try to add comments.
 
+## Github Pages
+
+This project is located on [Github pages](https://russeby.github.io/SmallProjects)
+
 ## Course Work
 
 Most of the tutorials were inspired by [JavaScript 50+ projects and applications Monster JavaScript](https://www.udemy.com/course/javascript-course-projects/) course on Udemy. 
