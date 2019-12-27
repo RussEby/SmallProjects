@@ -1,0 +1,74 @@
+/* https://cssgradient.io/ */
+body{
+    background: rgb(90,34,195);
+    background: radial-gradient(circle, rgba(90,34,195,1) 0%, rgba(113,238,197,1) 46%, rgba(233,45,253,1) 100%);
+}
+
+.page-banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+
+}
+.page-banner a {
+    color: #fff;
+}
+
+.RPS-main {
+    width: 90%;
+    margin: 50px auto;
+    font-size: 1.3em;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.RPS-header h2 {
+    margin: 0;
+}
+
+.RPS-button {
+    padding: 10px;
+    margin: 5px;
+    font-size: 1.1em;
+    border-radius: 5px;
+    border: none;
+    width: 30%;
+    background-color: #33ffee;
+    box-shadow: 1px 2px #125e57;
+}
+.RPS-button:hover {
+    background-color: #25cec0;
+}
+.RPS-button:focus {
+    outline: none;
+}
+
+#btnRock:before {
+    content: "\26F0";
+    padding-right: 5px;
+}
+
+#btnPaper:before {
+    content: "\1F4D6";
+    padding-right: 5px;
+}
+
+#btnScissors:before {
+    content: "\2704";
+    padding-right: 5px;
+}
+
+.RPS-Results {
+    margin-top: 30px;
+}
+
+.score {
+    font-size: 1.3em;
+    font-weight: bold;
+    font-family: 'Orbitron', sans-serif;
+    padding: 0 5px;
+}
