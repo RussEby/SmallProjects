@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="playAudio.css">
+    <title>Play Dragnet</title>
+</head>
+
+<body>
+    <div class="page-banner">
+        <p>Projects -- <a href="../../index.html">Home page</a></p>
+    </div>
+    <main class="dragnet-main">
+        <header class="page-header">
+            <h1>Dragnet Radio Drama</h1>
+            <h2>Select an episode to listen to.</h2>
+        </header>
+        <section>
+            <div class="instructions">
+                <p>These audio programs are from the <a href="https://archive.org/">Internet Archive</a>. Press Stop to unload the episode to start a new one.</p>
+            </div>
+
+            <section class="controls">
+                <select name="episodeList" id="soundSection" class="episodeSelector">
+
+                </select>
+                <button id="DragnetPlayPause" class="btnControls">Play</button>
+                <button id="DragnetStop" class="btnControls">Stop</button>
+            </section>
+
+            <div id="trackMeter"></div>
+        </section>
+        <footer class="page-footer">
+            <p>&copy; Russ Eby</p>
+        </footer>
+    </main>
+    <script src="playAudio.js"></script>
+</body>
+
+</html>

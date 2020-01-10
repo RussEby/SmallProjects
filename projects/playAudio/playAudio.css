@@ -1,0 +1,80 @@
+body {
+    background-color:black;
+    background-image:
+    radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+    radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+    radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+    radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+    background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+    background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+}
+
+.page-banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+.page-banner a {
+    color: #fff;
+}
+
+.dragnet-main {
+    width:90%;
+    margin: 60px auto;
+    color: #ddd;
+}
+
+.page-header {
+    text-align: center;
+}
+
+.page-header h1 {
+    margin: 0;
+    padding-top: 10px;
+}
+
+.instructions {
+    font-size: 1.3em;
+    width: 70%;
+    margin: 30px auto;
+}
+
+.episodeSelector {
+    box-shadow: 2px 2px #999;
+    font-size: 1.1em;
+    border-radius: 5px;
+    border: none;
+    padding: 3px;
+    outline: none;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.btnControls {
+    padding: 10px 25px;
+    font-size: 1.3em;
+    border-radius: 15px;
+    margin: 5px;
+    position: relative;
+    top: 2px;
+    outline: none;
+}
+
+#trackMeter {
+    padding: 5px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.page-footer {
+    text-align: center;
+    font-size: 1.3em;
+}
