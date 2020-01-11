@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Courier+Prime&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    background-image:
+    linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+    linear-gradient(#eee .1em, transparent .1em);
+    background-size: 100% 1.2em;
+}
+
+.page-banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+.page-banner a {
+    color: #fff;
+}
+
+.page-main {
+    margin: 70px auto;
+    width: 90%;
+}
+
+.page-header {
+    text-align: center;
+}
+
+#practiceSentence {
+    min-height: 60px;
+    width: 100%;
+    border: 1px solid #3e3e3e;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 5px;
+    font-size: 1.4em;
+    font-weight: bold;
+    background-color: #7f02a5;
+    color: #eee;
+}
+
+#typeArea {
+    width: 100%;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    font-family: 'Courier Prime', monospace;
+    background-color: rgba(165, 137, 201, 0.322);
+}
+
+.controls {
+    text-align: center;
+}
+
+.actionBtn {
+    background-color: #45fe45;
+    width: 45%;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 1.1em;
+    position: relative;
+    box-shadow: 3px 3px #555;
+}
+.actionBtn:active {
+    top: 2px;
+    box-shadow: none;
+    outline: none;
+}
+
+#typingResults {
+    text-align: center;
+}
+
+.wrongWord {
+    color: red;
+    font-weight: bold;
+}
+
+.page-footer {
+    text-align: center;
+    font-size: 1.4em;
+}
