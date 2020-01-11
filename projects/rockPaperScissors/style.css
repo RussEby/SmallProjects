@@ -4,20 +4,6 @@ body{
     background: radial-gradient(circle, rgba(90,34,195,1) 0%, rgba(113,238,197,1) 46%, rgba(233,45,253,1) 100%);
 }
 
-.page-banner {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-
-}
-.page-banner a {
-    color: #fff;
-}
-
 .RPS-main {
     width: 90%;
     margin: 50px auto;

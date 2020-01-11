@@ -1,0 +1,18 @@
+.page-banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+
+}
+.page-banner a {
+    color: #fff;
+}
+
+.page-footer {
+    text-align: center;
+    font-size: 2em;
+}

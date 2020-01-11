@@ -1,17 +1,3 @@
-.page-banner {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-
-}
-.page-banner a {
-    color: #fff;
-}
-
 body {
     background-color:#269;
     background-image: linear-gradient(white 2px, transparent 2px),
