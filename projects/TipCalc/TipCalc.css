@@ -72,3 +72,9 @@ body {
   padding:5px;
   margin: 5px;
 }
+
+.page-footer {
+    font-weight: bold;
+    background-color: rgba(235,235,235,0.5);
+    border-radius: 10px;
+}
