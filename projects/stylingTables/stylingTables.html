@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../../projectStyles.css">
+    <link rel="stylesheet" href="stylingTables.css">
+    <title>Styling Tables</title>
+</head>
+
+<body>
+    <div class="page-banner">
+        <p>Projects -- <a href="../../index.html">Home page</a></p>
+    </div>
+    <main class="page-main">
+        <header class="page-header">
+            <h1>Cheat sheet</h1>
+        </header>
+        <article>
+            <div class="table-container">
+                <table class="styling-Tables">
+                    <caption>Styling Tables</caption>
+                    <thead>
+                        <tr>
+                            <th>Tags</th>
+                            <th>Property</th>
+
+                            <th>Description</th>
+                            <th>Common Choices</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td rowspan="6">table</td>
+                            <td>border-spacing</td>
+                            <td>Sets the distance between the borders of adjacent &lt;table&gt; cells. This property applies only when border-collapse is separate.</td>
+                            <td>&lt;horizontal length&gt; &lt;vertical length&gt;?</td>
+                        </tr>
+                        <tr>
+                            <td>border-collapse</td>
+                            <td>Sets whether cells inside a &lt;table&gt; have shared or separate borders.</td>
+                            <td>collapse, separate</td>
+                        </tr>
+                        <tr>
+                            <td>padding</td>
+                            <td>When applied to table cells (e.g., th and td), creates a buffer between their content and the cell borders.</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>empty-cells</td>
+
+                            <td>Sets whether borders and backgrounds appear around &lt;table&gt; cells that have no visible content.</td>
+                            <td>show, hide</td>
+                        </tr>
+                        <tr>
+                            <td>caption-side</td>
+                            <td>Puts the content of a table's &lt;caption&gt; on the specified side. The values are relative to the writing-mode of the table.</td>
+                            <td>top, bottom, <em>left, right, top-outside, bottom-side</em></td>
+                        </tr>
+                        <tr>
+                            <td>table-layout</td>
+                            <td>Sets the algorithm used to lay out &lt;table&gt; cells, rows, and columns.</td>
+                            <td>auto, fixed</td>
+                        </tr>
+                        <tr>
+                            <td>tr:nth-child(even)</td>
+                            <td>background-color</td>
+                            <td>More of a tip, then a specific property, Makes a striped table.</td>
+                            <td></td>
+                        </tr>
+
+                        <tr>
+                            <td rowspan="3">table, th, td</td>
+                            <td>vertical-align</td>
+                            <td>Sets vertical alignment of an inline, inline-block or table-cell box.</td>
+                            <td>baseline, top, middle, bottom (there are other values for this, but these are for tables)</td>
+                        </tr>
+                        <tr>
+                            <td>border</td>
+                            <td>Allows you to control the borders of each side of the table and each side of each cell independently using the border properties.</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>white-space</td>
+                            <td>Controls how text wraps in a cell. Some data may need to be all on one line to make sense.</td>
+                            <td>normal, pre, nowrap, pre-wrap, pre-line</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </article>
+        <article>
+            <header>
+                <h3>Notes:</h3>
+            </header>
+            <ul>
+                <li>Global choices for most will be <em>inherit, initial, unset</em></li>
+                <li>Some choices are non-standard and are very limited in browser support. Marked by italics</li>
+                <li>Many standard CSS properties will work with Tables (see list below for examples), but keep in mind they may work differently then you'd expect.
+                    <ol>
+                        <li>width</li>
+                        <li>height</li>
+                        <li>text-align</li>
+                        <li>background-color</li>
+                        <li>background-image</li>
+                    </ol>
+                </li>
+            </ul>
+        </article>
+        <footer class="page-footer">
+            <p>A Challenge Project on <a href="https://www.codecademy.com/">codecademy</a></p>
+            <h3>&copy; Russ Eby</h3>
+        </footer>
+    </main>
+</body>
+
+</html>
