@@ -43,41 +43,44 @@ body {
     width: 220px;
 }
 
-.game-header, .app-header {
+.app-header {
     text-align: center;
 }
 
-.game-section, .app-section {
+.app-section {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     width: 100%;
 }
 
-.game-article, .app-article {
+.app-article {
     border: 1px solid #222;
     border-radius: 15px;
     width: 200px;
-    background-color: #ff4422;
+    background-color: rgb(73, 143, 255);
     box-shadow: 3px 3px 7px #811a07;
+    margin-bottom: 10px;
 }
-.game-article-body, .app-article-body {
-    padding: 15px;
-}
-.game-article-header, .app-article-header {
+
+.app-article-header {
     text-align: center;
     border-bottom: 1px solid #ddd;
     border-radius: 15px 15px 0 0;
     width: 100%;
     margin: 0px;
     padding: 6px 0;
-    background-color: rgb(73, 143, 255);
     overflow: hidden;
     font-size: 1.4em;
     font-weight: bold;
 }
 
-.game-article-footer, .app-article-footer {
+.app-article-body {
+    padding: 15px;
+    background-color: #ff4422;
+}
+
+.app-article-footer {
     text-align: center;
     border-top: 1px solid #ddd;
     border-radius: 0 0 15px 15px;
