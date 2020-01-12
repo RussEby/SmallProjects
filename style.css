@@ -24,7 +24,7 @@ body {
 .main-footer {
     text-align: center;
     background-color: #ff4422;
-    margin: 0;
+    margin: 20px 0;
     flex-shrink: 0;
 }
 
